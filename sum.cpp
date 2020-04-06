@@ -18,6 +18,8 @@ bool SubsetSum(int x[], int n, int k, int v) {
 }
 
 int main(void) {
-
+    int a[] = {1, 2, 3, 4, 5};
+    if(SubsetSum(a, 5, 2, 3)) printf("Yay!\n");
+    else printf("No!\n");
     return 0;
 }
